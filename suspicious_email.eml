@@ -1,0 +1,22 @@
+Received: from mail.attacker-phishing-domain.xyz (attacker-phishing-domain.xyz [192.0.2.45])
+	by mx.google.com with ESMTPS id x123so12345678pqv.1.2026.09.08.10.15.00
+	for <victim@targetcompany.com>;
+	Tue, 08 Sep 2026 10:15:00 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of support@bank-security-alert.com does not designate 192.0.2.45 as permitted sender) smtp.mailfrom=support@bank-security-alert.com;
+       dkim=fail;
+       dmarc=fail action=quarantine
+From: "Security Alert Team" <support@bank-security-alert.com>
+To: <victim@targetcompany.com>
+Subject: URGENT: Your Account Has Been Suspended - Verify Immediately
+Date: Tue, 08 Sep 2026 10:15:00 -0700
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body>
+<p>Dear Customer,</p>
+<p>We detected unauthorized login attempts to your account. Please verify your credentials immediately to avoid permanent suspension.</p>
+<p><a href="http://login.verification-portal-secure.ru/login.php?token=aWRlbnRpZnk9MTIzNDU=">Click Here to Verify Your Account</a></p>
+<p>Thank you,<br>Security Operations Team</p>
+</body>
+</html>
